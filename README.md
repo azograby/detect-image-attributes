@@ -1,4 +1,4 @@
-# Welcome to your CDK TypeScript project
+# Detect Text in Images
 
 This CDK project provides the necessary code to run existing S3 assets through image analysis provided by Amazon Rekognition. This particular solution aims to find a specific word (Text Detection) in the images, saving the results in a DynamoDB table to easily identify all the assets that contain that specific word. This can be useful for finding text in movie posters, advertisements, and retail.
 
