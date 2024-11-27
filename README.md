@@ -4,6 +4,8 @@ This CDK project provides the necessary code to run existing S3 assets through i
 
 Make sure to update the word to detect, and the existing bucket name in the `detect-image-attributes-stack.ts` file.
 
+![Architecture](./architecture.png)
+
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## Useful commands
