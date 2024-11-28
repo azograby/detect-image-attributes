@@ -6,6 +6,8 @@ Make sure to update the word to detect, and the existing bucket name in the `det
 
 ![Architecture](./architecture.png)
 
+To start processing, create an S3 Batch Job with an S3 Inventory Report as the input, and configure it to invoke the S3 Batch SQS Lambda function.
+
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## Useful commands
